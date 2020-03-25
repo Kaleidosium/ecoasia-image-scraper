@@ -7,10 +7,10 @@ Image scraping from Yahoo and Ecosia using puppeteer.
 ### Installation
 
 ```bash
-npm alt-image-scraper
+npm i alt-image-scraper
 ```
 
-### Usage
+### Usage Example
 
 ```js
 const Scraper = require("./index.js");
