@@ -1,2 +1,2 @@
-module.exports.Ecosia = require("./lib/ecosia-image-scraper.js");
-module.exports.Yahoo = require("./lib/yahoo-image-scraper.js");
+module.exports.Ecosia = require("./lib/ecosia.js");
+module.exports.Yahoo = require("./lib/yahoo.js");
