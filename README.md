@@ -33,6 +33,8 @@ const yahoo = new Scraper.Yahoo({
 #### Ecosia
 
 ```js
+const Scraper = require("alt-image-scraper");
+
 const ecosia = new Scraper.Ecosia({
     keyword: "banana",
     puppeteer: {
