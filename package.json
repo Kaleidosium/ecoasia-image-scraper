@@ -1,6 +1,6 @@
 {
   "name": "alt-image-scraper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Image scraping from Yahoo and Ecosia using puppeteer",
   "main": "yahoo-image-scraper.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/IamRifki/alt-image-scraper"
   },
   "dependencies": {
-    "puppeteer": "^3.0.1"
+    "puppeteer": "^3.0.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
