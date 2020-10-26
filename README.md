@@ -1,23 +1,21 @@
-# alt-image-scraper
+# ecoasia-image-scraper
 
-Image scraping from Yahoo and Ecosia using puppeteer.
+Image scraping from Ecosia using puppeteer.
 
 ## Usage
 
 ### Installation
 
 ```bash
-npm i alt-image-scraper
+npm i ecoasia-image-scraper
 ```
 
 ### Usage Example
 
-#### Yahoo
-
 ```js
-const Scraper = require("alt-image-scraper");
+const EcoasiaImageScraper = require("ecoasia-image-scraper");
 
-const yahoo = new Scraper.Yahoo({
+const scraper = new EcoasiaImageScraper({
     keyword: "banana",
     puppeteer: {
         headless: false,
@@ -25,25 +23,7 @@ const yahoo = new Scraper.Yahoo({
 });
 
 (async () => {
-    const results = await yahoo.scrape();
-    console.log("results: ", results);
-})();
-```
-
-#### Ecosia
-
-```js
-const Scraper = require("alt-image-scraper");
-
-const ecosia = new Scraper.Ecosia({
-    keyword: "banana",
-    puppeteer: {
-        headless: false,
-    },
-});
-
-(async () => {
-    const results = await ecosia.scrape();
+    const results = await scraper.scrape();
     console.log("results: ", results);
 })();
 ```

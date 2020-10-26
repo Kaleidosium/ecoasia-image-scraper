@@ -69,14 +69,7 @@
             }
         ],
         "no-shadow": [
-            "error",
-            {
-                "allow": [
-                    "err",
-                    "resolve",
-                    "reject"
-                ]
-            }
+            "off"
         ],
         "no-trailing-spaces": [
             "error"
