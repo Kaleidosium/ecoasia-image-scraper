@@ -19,7 +19,7 @@
     "url": "https://github.com/IamRifki/ecoasia-image-scraper"
   },
   "dependencies": {
-    "puppeteer": "5.4.0"
+    "puppeteer": "5.4.1"
   },
   "devDependencies": {
     "eslint": "7.12.1",
