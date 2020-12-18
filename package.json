@@ -1,6 +1,6 @@
 {
   "name": "ecoasia-image-scraper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Image scraping from Ecosia using puppeteer",
   "main": "index.js",
   "scripts": {
